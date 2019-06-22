@@ -6,7 +6,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 describe('test 1', () => {
 	const randomsArray = [];
 	for (var i = 0; i < 10; i++) {
-		randomsArray.push(Math.floor(Math.random() * 3000 + 100));
+		randomsArray.push(Math.floor(Math.random() * 300 + 10));
 	}
 
 	randomsArray.forEach((item, index) => {
