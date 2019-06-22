@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "nodemon index.js",
 		"debug": "nodemon --inspect index.js",
-		"test": "jest test/*/*.test.js",
+		"test": "jest test/*/*.test.js --runInBand",
 		"eslint": "eslint src test"
 	},
 	"keywords": [],
